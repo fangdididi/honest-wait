@@ -1,0 +1,16 @@
+{"t": 0.0, "id": "export", "type": "start", "source": "user", "priority": 0}
+{"t": 0.5, "id": "export", "type": "update", "progress": 0.05, "eta": 60}
+{"t": 1.0, "id": "export", "type": "announce", "text": "Export started", "politeness": "polite"}
+{"t": 3.0, "id": "export", "type": "update", "progress": 0.21, "eta": 20}
+{"t": 4.0, "id": "export", "type": "announce", "text": "21 percent", "politeness": "polite"}
+{"t": 6.0, "id": "export", "type": "announce", "text": "30 percent", "politeness": "polite"}
+{"t": 6.0, "id": "export", "type": "update", "progress": 0.3, "eta": 55}
+{"t": 18.0, "id": "export", "type": "update", "progress": 0.26}
+{"t": 18.0, "id": "export", "type": "alert", "reason": "progress"}
+{"t": 20.0, "id": "sync", "type": "start", "source": "system", "priority": 0}
+{"t": 20.1, "id": "sync", "type": "end"}
+{"t": 21.0, "id": "promo", "type": "start", "source": "marketing", "priority": 1}
+{"t": 21.0, "type": "visible", "ids": ["promo", "export"]}
+{"t": 25.0, "id": "export", "type": "update", "progress": 0.99}
+{"t": 40.0, "id": "export", "type": "done"}
+{"t": 40.3, "id": "export", "type": "end"}
